@@ -1,0 +1,6 @@
+What is the use of alt attribute in image tag?
+--> It is use to display text message incase the image file is unable to display or load.
+    In such cases content added in atl attribute is display on the place of image.
+
+Example:
+<img src="itvedantlogo.pngg" alt="Clickable Image" width="400" height="200">

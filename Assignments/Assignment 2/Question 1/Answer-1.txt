@@ -1,0 +1,14 @@
+Mention the difference between block elements and inline elements. Also give examples for the same.
+
+1. Block Elements
+- This elements uses the full width of the browser page.
+- There are multiple block elements such as <>,<>,<>,<>,etc
+- By using this element it always start on new line.
+
+
+
+
+2. Inline Elements
+- This elements use the width as per the content requires.
+- There are multiple inline elements such as <>,<>,<>,<>,etc
+- By using this element it always start on same line.

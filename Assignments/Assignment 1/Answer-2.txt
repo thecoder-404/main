@@ -1,0 +1,14 @@
+1. Title Tag:
+This tag is in known as open/close tag which is written in Head section of the html file.
+It is written as <title>content</title>.
+The content between the title tag is use to display the title name in browser tab.
+
+2. Link Tag:
+This tag is known as Empty tag which is written in Head section of the html file.
+It is written as <link />,it contains attributes such as rel, href, type,etc.
+This tag is use to link external stylesheets (CSS),etc.
+
+3. Style Tag:
+This tag is known as open/close tag which is written in Head section of the html file.
+It is written as <style>css content</style>
+This tag is used to define style information for a html file.

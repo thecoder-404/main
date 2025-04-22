@@ -1,0 +1,7 @@
+what is the use of target attribute in anchor tag?
+--> The target attribute is use to specify the browser where to open the linked page, document.
+    There are multiple values use to specify the browser such as _blank,_self,_parent,_top.
+
+Examples:
+_blank - this is use to open the page or document on new tab.
+_self - this is the default tag and it is used to open the page or document on same tab.

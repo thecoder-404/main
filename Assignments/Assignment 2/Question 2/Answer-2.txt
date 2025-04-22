@@ -1,0 +1,8 @@
+What is the difference between bold tag and strong tag.
+
+- The bold tag is use to make the text bold and the strong tag is also use to make the text bold.
+- bold tag is purely use for styling purpose but strong tag is used to indicates the text is of strong importance.
+- Bold tag is only use for visual appearance and Strong tag is use for visual appearance including importance. 
+
+Example : <strong>
+---> <p>This is a <strong>important</strong> tag.</p>
