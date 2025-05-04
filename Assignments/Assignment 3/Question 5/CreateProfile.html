@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student|Profile</title>
+</head>
+<body>
+    <form align="center" >
+        <h1>Sign In</h1>
+        <table align="center" cellpadding="5">
+            <tr>
+                <td align=""><label><strong>First Name :</strong></label></td>
+                <td align="left">
+                    <input type="text" name="fistname" placeholder="First Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td align=""><label><strong>Last Name :</strong></label></td>
+                <td align="left">
+                    <input type="text" name="lastname" placeholder="Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td align=""><label><strong>Date of Birth :</strong></label></td>
+                <td align="left">
+                    <input type="date" name="dob" required>
+                </td>
+            </tr>
+            <tr>
+                <td align=""><label><strong>Enter Age :</strong></label></td>
+                <td align="left">
+                    <input type="number" name="age" placeholder="Age" required
+                           title="Age is required">
+                </td>
+            </tr>
+            <tr>
+                <td align=""><label><strong>Gender :</strong></label></td>
+                <td align="left">
+                    <input type="radio" id="Male" name="Gender" value="Male" checked required>
+                    <label for="Male">Male</label>
+                    <input type="radio" id="Female" name="Gender" value="Female" required>
+                    <label for="Female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="currentAddress"><strong>Current Address:</strong></label></td>
+                <td>
+                  <textarea id="personalAddress" name="personalAddress" rows="4" cols="50" ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="permanentAddress"><strong>Permanent Address:</strong></label></td>
+                <td>
+                  <textarea id="permanentAddress" name="permanentAddress" rows="4" cols="50" ></textarea>
+                  <br>
+              </tr>
+            
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="create">Create</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

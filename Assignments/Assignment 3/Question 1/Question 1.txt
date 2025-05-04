@@ -1,0 +1,9 @@
+What is the difference between semantic and non-semantic elements. Explain it with example.Answer : 
+-->
+Semantic : This elements are use to describe their meaning to the browser and also defines the purpose of the content inside this tags/elements.
+
+Examples: <header>,<p>,<footer>,<section>,<article>,<nav>,.etc.
+
+Non-Semantic : This elements does not provide the information about the content inside the tags/elements and they are used for styling and scripting purpose.
+
+Examples : <span>,<strong>,<b>,<i>,<em>,.etc.
