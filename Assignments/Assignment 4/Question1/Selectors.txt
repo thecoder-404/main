@@ -1,0 +1,33 @@
+ID Selector : 
+- An ID selector in CSS is used to apply styles to a single, unique HTML element. 
+
+- Each element in an HTML document can have an id attribute, and CSS can target that element specifically using the # symbol followed by the ID value.
+
+Example:
+#idName {
+  /* CSS properties */
+}
+
+Code :
+css:
+ #container {
+            width: 1000px;
+            height: 540px;
+            background-color: #f0f0f0;
+        }
+
+Class Selector:
+- A class selector is used in CSS to target one or more HTML elements that share the same class name. 
+
+- It helps you apply the same styles to multiple elements, making your CSS reusable and efficient.
+
+Example:
+.className {
+  /* CSS properties */
+}
+
+Code :
+.highlight {
+      background-color: red;
+      font-weight: bold;
+    }
