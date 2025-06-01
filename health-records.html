@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Health Records</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Section Layout */
+.records-section {
+  position: relative;
+  background: url('https://images.unsplash.com/photo-1588776814546-c596780f8c4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+  padding: 80px 20px;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+/* Content Container */
+.records-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.records-content h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.records-content p {
+  font-size: 16px;
+  color: #ddd;
+  margin-bottom: 40px;
+}
+
+/* Steps Grid */
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.step {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 30px;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.step:hover {
+  transform: translateY(-8px);
+}
+
+.step .number {
+  background-color: #00c9ff;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.step h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 14px;
+  color: #eee;
+}
+  </style>
+</head>
+<body>
+  <section class="records-section">
+    <div class="overlay"></div>
+    <div class="records-content">
+      <h2>Health Records</h2>
+      <p>Securely store and access your health records anytime, anywhere.</p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="number">1</div>
+          <h3>Login</h3>
+          <p>Sign in with your secure credentials to access your records.</p>
+        </div>
+        <div class="step">
+          <div class="number">2</div>
+          <h3>Upload / View</h3>
+          <p>Easily upload new reports or view past medical history.</p>
+        </div>
+        <div class="step">
+          <div class="number">3</div>
+          <h3>Access Anywhere</h3>
+          <p>Your records are always available — on any device, anytime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
